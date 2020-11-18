@@ -45,11 +45,11 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
-}    
+// function copy(originalFlavors){
+//     return newarray = originalFlavors;
+// }  
 
-
+// console.log(copy(originalFlavors));
 
 
 
@@ -63,10 +63,12 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
+function is31Flavors(originalFlavors){
+    return originalFlavors.length === 31;
+  }
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
-}
+  console.log(is31Flavors(originalFlavors));
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -81,9 +83,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
-}
+// function addFlavor(originalFlavors, "Rainbow Sherbert"){
+//     return originalFlavors.unshift("Rainbow Sherbert");
+//   }
+  
+//   console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
